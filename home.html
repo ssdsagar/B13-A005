@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--tailwind and daisy-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!--css -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body class=" min-h-screen max-w-md bg-base-200 mx-auto py-20">
+   <div class=" px-15 mx-auto">
+     <img class="mx-auto w-20" src="assets/github-logo.png" alt="">
+     <h2 class="text-3xl font-bold">GitHub Issues Tracker</h2>
+     <p>
+        Sign in to manage your issues
+     </p>
+   </div>
+<div>
+    <fieldset class="fieldset w-10/12 mx-auto">
+  <legend class="fieldset-legend text-xl font-bold">User Name</legend>
+  <input id="input-name" type="text" class="input rounded-sm" placeholder="enter username" />
+  <p class="label">defult : admin</p>
+</fieldset>
+<fieldset class="fieldset w-10/12 mx-auto  ">
+  <legend class="fieldset-legend text-xl font-bold">Password</legend>
+  <input id="input-password" type="text" class="input rounded-sm" placeholder="enter Password" />
+  <p class="label">defult: admin123</p>
+</fieldset>
+</div>
+<div class="w-10/12 mx-auto"><button id="login-btn" class="btn btn-active btn-primary w-10/12 mx-auto">Sign In</button></div>
+
+   <script src="script.js"></script>
+</body>
+</html>
